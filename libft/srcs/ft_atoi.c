@@ -6,11 +6,11 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/26 10:48:18 by malrifai          #+#    #+#             */
-/*   Updated: 2024/08/31 20:47:16 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/09 23:52:44 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int	ft_atoi(const char *str)
 {

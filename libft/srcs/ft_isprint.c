@@ -6,11 +6,11 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/25 16:10:44 by malrifai          #+#    #+#             */
-/*   Updated: 2024/08/25 16:13:59 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/10 00:13:12 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int	ft_isprint(int i)
 {

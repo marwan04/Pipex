@@ -6,11 +6,11 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/14 19:42:16 by malrifai          #+#    #+#             */
-/*   Updated: 2024/09/14 19:43:35 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/10 00:14:48 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 int	print_char(char c)
 {

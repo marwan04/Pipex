@@ -6,11 +6,11 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/25 16:16:45 by malrifai          #+#    #+#             */
-/*   Updated: 2024/08/31 22:05:34 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/10 00:24:24 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 size_t	ft_strlen(const char *str)
 {

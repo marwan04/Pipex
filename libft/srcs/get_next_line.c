@@ -6,11 +6,11 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 00:02:01 by malrifai          #+#    #+#             */
-/*   Updated: 2024/10/13 17:30:16 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/10 00:12:35 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../includes/get_next_line.h"
 
 static char	*_set_line(char *line_buffer)
 {

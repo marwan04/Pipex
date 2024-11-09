@@ -6,11 +6,11 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/25 15:29:56 by malrifai          #+#    #+#             */
-/*   Updated: 2024/08/25 15:53:36 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/10 00:10:59 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int	ft_isdigit(int i)
 {

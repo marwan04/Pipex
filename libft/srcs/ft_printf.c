@@ -6,11 +6,11 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/14 17:04:39 by malrifai          #+#    #+#             */
-/*   Updated: 2024/09/14 20:37:25 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/10 00:23:58 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 static int	check_type(const char *input, va_list args)
 {

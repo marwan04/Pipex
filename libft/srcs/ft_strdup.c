@@ -6,11 +6,11 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/29 13:19:26 by malrifai          #+#    #+#             */
-/*   Updated: 2024/08/31 22:03:16 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/10 00:31:41 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 char	*ft_strdup(const char *src)
 {
@@ -22,7 +22,7 @@ char	*ft_strdup(const char *src)
 	while (src[len] != '\0')
 	{
 		len++;
-	}	
+	}
 	dest = (char *)malloc(sizeof(char) * (len + 1));
 	if (dest == NULL)
 	{

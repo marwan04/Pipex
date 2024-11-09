@@ -6,7 +6,7 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 16:01:45 by malrifai          #+#    #+#             */
-/*   Updated: 2024/11/09 18:03:35 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/10 00:30:36 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@
 # include <stdio.h>
 # include <sys/types.h>
 # include <sys/wait.h>
-# include<sys/types.h>
-# include<sys/stat.h>
+# include <sys/types.h>
+# include <sys/stat.h>
 # include <fcntl.h>
 # include <stdlib.h>
 

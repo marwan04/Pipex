@@ -6,11 +6,11 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/30 18:55:07 by malrifai          #+#    #+#             */
-/*   Updated: 2024/08/30 21:01:07 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/09 23:57:25 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 static int	ft_count_words(const char *s, char c)
 {
