@@ -6,7 +6,7 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 16:01:45 by malrifai          #+#    #+#             */
-/*   Updated: 2024/11/10 00:30:36 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/12 09:40:15 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@
 # include <sys/stat.h>
 # include <fcntl.h>
 # include <stdlib.h>
-
-void	exit_handler(int n_exit);
+# include <stdarg.h>
+void	exit_handler(int n_exit, ...);
 void	free_tab(char **tab);
 void	exec(char *cmd, char **env);
 char	*get_env(char *name, char **env);

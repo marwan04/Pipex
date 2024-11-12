@@ -6,16 +6,25 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 16:01:28 by malrifai          #+#    #+#             */
-/*   Updated: 2024/11/09 17:37:53 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/12 10:04:50 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/pipex.h"
 
-void	exit_handler(int n_exit)
+void	exit_handler(int n_exit, ...)
 {
+	va_list	args;
+	int	fd;
+
 	if (n_exit == 1)
 		ft_putstr_fd("./pipex infile cmd cmd outfile\n", 2);
+
+	va_start(args, n_exit);
+	while((fd = va_arg(args, int)) != -1)
+		if (fd >= 0)
+			close(fd);
+	va_end(args);
 	exit(0);
 }
 

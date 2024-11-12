@@ -6,7 +6,7 @@
 /*   By: malrifai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 15:47:25 by malrifai          #+#    #+#             */
-/*   Updated: 2024/11/09 18:02:58 by malrifai         ###   ########.fr       */
+/*   Updated: 2024/11/12 09:22:43 by malrifai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,10 +63,10 @@ int	main(int argc, char **argv, char **env)
 	if (argc != 5)
 		exit_handler(1);
 	if (pipe(p_fd) == -1)
-		exit(-1);
-	pid = fork();//
+		exit_handler(-1);
+	pid = fork();
 	if (pid == -1)
-		exit(-1);
+		exit_handler(-1, p_fd[0], p_fd[1], -1);
 	if (!pid)
 		child(argv, p_fd, env);
 	parent(argv, p_fd, env);
@@ -74,10 +74,3 @@ int	main(int argc, char **argv, char **env)
 	close(p_fd[1]);
 	return 0;
 }
-
-
-
-
-
-
-
